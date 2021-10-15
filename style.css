@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("img/pexels-stanislav-kondratiev-3461640.jpg");
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+}
+img.large{
+    border: 1px solid;
+    width: 100%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+.startPic{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    width: 400px;
+    font-style: italic;
+    word-spacing: 0.2em;
+    text-shadow: 2px 2px 5px  black;
+    color: white;
+
+    border-radius: 77% 23% 82% 18% / 0% 17% 83% 100% ;
+    background-color: rgba(36, 119, 167, 0.253);
+    padding: 30px;
+
+    position: absolute;
+    top: 130px;
+    right: 20px; 
+    text-align: center;
+    
+}
+h1{
+    background-color: rgba(33, 118, 121, 0.945);
+    padding: 30px;
+    border-radius: 45% 55% 76% 24% / 66% 57% 43% 34% ;
+    color: snow;
+    font-style: italic;
+    border: 1px solid;
+    float: left;
+    position: absolute;
+    top: 400px;
+    left: 5%;
+    text-align: center;
+}
+
+img.box-img{
+    border: 1px solid;
+    /*max-width: 500px;*/
+    width: 100%;
+
+    /*height: 500px;*/
+    height: 100%;
+    border-radius: 10px;
+}
+.div-box{
+    /*width: 500px;*/
+    width: 43%;
+    float: left;
+    margin: 30px 10px 30px 10px;
+    padding: 15px;
+    
+    
+}
+.div-text{
+    border-radius: 83% 17% 73% 27% / 44% 68% 32% 56%  ;
+    background-color: rgb(77, 155, 201);
+    padding: 35px;
+    z-index: 100;
+    position: relative;
+    top: -40px;
+    font-family: Verdana;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 0,2em;
+    line-height: 1.4em;
+    color: white;
+    border: 1px solid rgb(4, 100, 243);
+    
+}
+div{
+    background: none;
+}
+.container{
+    text-align: center;
+    position: absolute;
+    left: 30px;
+    top: 700px;
+}
+@media screen and (max-width:750px) {
+    .startPic{
+        font-size: 150%;
+        width: 350px;
+        word-spacing: 0.1em;
+        padding: 30px;
+    
+        position: absolute;
+        top: 70px;
+        right: 10px; 
+        
+    }
+    h1{
+        padding: 30px;
+        float: left;
+        position: absolute;
+        top: 330px;
+        left: 70px;
+        font-size: 25px;
+        padding: 40px;
+    }
+    .div-box{
+        /*width: 500px;*/
+        width: 80%;
+        float: left;
+        margin: 30px 10px 30px 10px;
+        padding: 5px;
+        
+        
+    }
+    .div-text{
+        position: relative;
+        top: -40px;
+        font-size: 18px;
+        
+    }
+    .container{
+        position: absolute;
+        left: 50px;
+        top: 480px;
+    }
+}
+@media screen and (max-width:450px) {
+    .startPic{
+        font-size: 150%;
+        width: 250px;
+        word-spacing: 0.1em;
+        padding: 20px;
+    
+        position: absolute;
+        top: 20px;
+        right: 50px; 
+        
+    }
+    h1{
+        padding: 5px;
+        float: left;
+        position: absolute;
+        top: 300px;
+        left: 30px;
+        font-size: 25px;
+        padding: 40px;
+    }
+    .div-text{
+        position: relative;
+        top: -20px;
+        font-size: 15px;
+        padding: 30px;
+        
+    }
+    .container{
+        position: absolute;
+        left: 50px;
+        top: 450px;
+    }
+@media screen and (max-width:350px) {
+    h1{
+        padding: 5px;
+        float: left;
+        position: absolute;
+        top: 250px;
+        left: 35px;
+        font-size: 20px;
+        padding: 40px;
+    }
+    .container{
+        position: absolute;
+        left: 30px;
+        top: 350px;
+    }
+
+}
+
+}
